@@ -1,0 +1,35 @@
+@media (max-width: 1000px) {
+	.header-list {
+		width: 100%;
+		float: right;
+	}
+
+	footer{
+		height: 150px;
+	}
+}
+
+@media (max-width: 670px) {
+	header {
+		height: 100px;
+
+	}
+	.header-list {
+		display: inline;
+	}
+
+	.header-right a {
+  		padding: 0 10px;
+}
+
+	footer {
+		height: 155px;
+		width: 100%;
+		text-align: right;
+       
+	}
+	.copyright {
+		padding-bottom: 0px;
+        
+	}
+}

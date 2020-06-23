@@ -1,0 +1,126 @@
+/* Reset CSS (JANGAN DIHAPUS) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header{
+	height: 60px;
+    padding-left: 25px;
+    background-color: #562d0a;
+    opacity: 0.6;
+    box-shadow: 0px 1px 10px;
+
+}
+
+header h1{
+	color:white;
+	font-size: 24px;
+	padding: 10px 0;
+	float: left;
+}
+
+header ul{
+	padding:18px;
+	float:right;
+}
+
+header li{
+	display: inline;
+	padding: 0px 10px;
+}
+
+header a{
+	color:white;
+}
+header a:hover{
+	color: #79d70f;
+}
+
+.section-1{
+	background-image:url("https://r1.ilikewallpaper.net/ipad-air-wallpapers/download/4772/Deep-Space-ipad-4-wallpaper-ilikewallpaper_com_1024.jpg");
+	background-size : cover;
+	padding-top:200px;
+	opacity: 0.9;
+
+}
+
+.container-1{
+
+	width: 100%;
+	margin-left: 25px;
+	padding-bottom:100px;
+	position: relative;
+	animation: mymove 2.5s;
+	animation-fill-mode: forwards;
+	
+}
+
+.container-1 h1{
+	font-size: 40px;
+	color: white;
+	
+
+}
+.container-1 span{
+	font-size: 40px;
+	color: #79d70f;
+}
+
+.container-1 h3{
+	font-weight: normal;
+	font-size: 16px;
+	color:white;
+
+}
+.container-1 p{
+	color:white;
+	width: 500px;
+	text-align: justify;
+	position: relative;
+	animation: mymove 3s;
+	animation-fill-mode: forwards;
+}
+.section-2 h2{
+	border-bottom: 1px solid gray;
+
+}
+
+.container-1-2{
+	padding-top: 40px;
+	padding-left: 25px;
+}
+
+.language{
+	margin-top: 40px;
+	margin-left: 25px;
+}
+
+.language-logo{
+	width: 100px;
+	text-align: center;
+}
+.language-description{
+}
+
+.section-3{
+	float: none;
+}
+@keyframes mymove {
+  from {right: 300px;}
+  to {right: 0px;}
+
